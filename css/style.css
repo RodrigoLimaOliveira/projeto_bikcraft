@@ -72,6 +72,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 /*Header*/
 
@@ -192,6 +193,10 @@ header {
 
 .produtos_lista li {
     background-color: #fec63e;
+}
+
+.produtos_lista li img {
+    margin: 0 auto;
 }
 
 .produtos_lista li h3{
