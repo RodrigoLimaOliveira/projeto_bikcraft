@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -30,21 +31,43 @@
     </header>
     <section class="introducao-interna interna_portfolio">
         <div class="container">
-            <h1>Portfólio</h1>
-            <p>conheça os produtos que amamos mostrar</p>
+            <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+            <p data-anime="600" class="fadeInDown">conheça os produtos que amamos mostrar</p>
         </div>
-    </section class="container">
-    <blockquote class="quote_clientes">
-        <p>"No mundo atual, a contínua expansão de nossas atividades cumpre um papel essencial
-            na formulação de gestão inovadora da qual fazemos parte."
-        </p>
-        <cite>Barbára Moss</cite>
-    </blockquote>
-    <section class="portfolio">
-        <div class="container">
+    </section>
+    <section class="container fadeInDown" data-slide="quote" data-anime="800">
+        <blockquote class="quote_clientes">
+            <p>"No mundo atual, a contínua expansão de nossas atividades cumpre um papel essencial
+                na formulação de gestão inovadora da qual fazemos parte."
+            </p>
+            <cite>Barbára Moss</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"There are many variations of passages of Lorem Ipsum available, but the majority 
+                have suffered alteration in some form, by injected humour, or randomised words which 
+                don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            </p>
+            <cite>Laura Guedes</cite>
+        </blockquote>
+        <blockquote class="quote_clientes">
+            <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type 
+                specimen book. It has"
+            </p>
+            <cite>Andréia Lima</cite>
+        </blockquote>
+    </section>
+    <section class="portfolio fadeInDown" data-anime="800">
+        <div class="container" data-slide="portfolio">
             <ul class="portfolio_lista">
                 <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retrô"></li>
                 <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
+            </ul>
+            <ul class="portfolio_lista">
+                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retrô"></li>
                 <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
             </ul>
         </div>
@@ -71,11 +94,11 @@
                 <div class="grid-4 footer_redes">
                     <h3>Contato</h3>
                     <ul>
-                        <li><a href="http://facebook.com" target="_blank"><img src="/img/redes-sociais/facebook.svg"
+                        <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg"
                                     alt="facebook"></a></li>
-                        <li><a href="http://instagram.com" target="_blank"><img src="/img/redes-sociais/instagram.svg"
+                        <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg"
                                     alt="facebook"></a></li>
-                        <li><a href="http://twitter.com" target="_blank"><img src="/img/redes-sociais/twitter.svg"
+                        <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg"
                                     alt="facebook"></a></li>
                     </ul>
                 </div>
@@ -87,6 +110,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/simple-slide.js"></script>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

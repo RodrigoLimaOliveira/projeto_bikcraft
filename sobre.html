@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -28,11 +29,11 @@
     </header>
     <section class="introducao-interna interna_sobre">
         <div class="container">
-            <h1>Sobre</h1>
-            <p>conheça mais sobre a bikcraft</p>
+            <h1 class="fadeInDown" data-anime="400">Sobre</h1>
+            <p class="fadeInDown" data-anime="600">conheça mais sobre a bikcraft</p>
         </div>
     </section>
-    <section class="missao_sobre container">
+    <section class="missao_sobre container fadeInDown" data-anime="800">
         <div class="grid-10">
             <h2 class="subtitulo_interno">História, Missão e Visão</h2>
             <p>
@@ -99,9 +100,9 @@
                 <div class="grid-4 footer_redes">
                     <h3>Contato</h3>
                     <ul>
-                        <li><a href="http://facebook.com" target="_blank"><img src="/img/redes-sociais/facebook.svg" alt="facebook"></a></li>
-                        <li><a href="http://instagram.com" target="_blank"><img src="/img/redes-sociais/instagram.svg" alt="facebook"></a></li>
-                        <li><a href="http://twitter.com" target="_blank"><img src="/img/redes-sociais/twitter.svg" alt="facebook"></a></li>
+                        <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="facebook"></a></li>
+                        <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="facebook"></a></li>
+                        <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="facebook"></a></li>
                     </ul>
                 </div>
             </div>
@@ -112,5 +113,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/simple-anime.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
