@@ -449,8 +449,8 @@ header {
 
 /* Mensagem de erro ou sucesso do e-mail */
 
-#form-erro {
- color: #f64540
+ #form-erro {
+ color: #f64540;
 }
 
 #form-sucesso {
