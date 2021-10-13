@@ -446,3 +446,13 @@ header {
     transform: none;
     transition: transform .8s, opacity .8s;
   }
+
+/* Mensagem de erro ou sucesso do e-mail */
+
+#form-erro {
+ color: #f64540
+}
+
+#form-sucesso {
+    color: #31aa39;
+}
